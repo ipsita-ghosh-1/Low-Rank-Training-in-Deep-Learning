@@ -1,4 +1,4 @@
-# SVD_Pruning
+# Low Rank Training for Deep Neural Networks
 This is a repertory for source code of Low Rank Training for Deep Neural Networks
 
 The following are the commands to run the algorithm step-wise.
