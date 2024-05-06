@@ -178,3 +178,16 @@ The following are the commands to run the algorithm step-wise.
   ```
   CUDA_VISIBLE_DEVICES=2 nohup python3 cifar10_resnet20.py --save_path ./L1_FT_Model_sp/03 --load_path ./L1_Model_sp/03/SVD_pruning_Model.pth --decay 0.0 --perp_weight 1.0 --reg_type None --train --n_svd_s1 --prun --dectype space 1>L1FT_sp_03.out 2>&1 &
   ```
+
+
+# Citation
+@misc{yang2020learning,
+      title={Learning Low-rank Deep Neural Networks via Singular Vector Orthogonality Regularization and Singular Value Sparsification}, 
+      author={Huanrui Yang and Minxue Tang and Wei Wen and Feng Yan and Daniel Hu and Ang Li and Hai Li and Yiran Chen},
+      year={2020},
+      eprint={2004.09031},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+# Acknowledgemet 
+This code is based on [SVD_Prune](https://github.com/yanghr/SVD_Prune_EDLCV.git) repository. We sincerely thank the authors for releasing their code.
