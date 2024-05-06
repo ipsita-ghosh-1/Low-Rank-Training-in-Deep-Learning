@@ -1,10 +1,9 @@
 # SVD_Pruning
-This is a repertory for source codes of Rank Pruning with SVD
+This is a repertory for source code of Low Rank Training for Deep Neural Networks
+
+The following are the commands to run the algorithm step-wise.
+
 # Start up code
-
-[TOC]
-
-
 
 ## train from scratch
 
