@@ -1,13 +1,13 @@
 # Low Rank Training for Deep Neural Networks
-This is a repertory for source code of Low Rank Training for Deep Neural Networks
+This is a repository for source code of Low Rank Training for Deep Neural Networks.
 
 The following are the commands to run the algorithm step-wise.
 
 # Start up code
 
-## train from scratch
+## Train from scratch
 
-### resnet-20
+### Resnet-20
 
 * channel
 
@@ -22,9 +22,9 @@ The following are the commands to run the algorithm step-wise.
   ```
 
 
-## train with pretraining
+## Train with pretraining
 
-### resnet-20
+### Resnet-20
 
 #### channel
 
@@ -69,9 +69,9 @@ The following are the commands to run the algorithm step-wise.
   ```
 
 
-## test and prune
+## Test and prune
 
-### resnet-20
+### Resnet-20
 
 #### channel
 
@@ -127,9 +127,9 @@ The following are the commands to run the algorithm step-wise.
   python3 cifar10_resnet20.py --load_path ./L1_Model_sp/03/SVD_Model.pth --save_path ./L1_Model_sp/03 -e 1e-1 --test --n_svd_s1 --dectype space
   ```
 
-## fine tune
+## Finetuning
 
-### resnet 20
+### Resnet 20
 
 #### channel
 
